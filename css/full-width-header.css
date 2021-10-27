@@ -1,0 +1,121 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+     @include placeholder{
+      opacity: 1;color: #a5aeb7;
+    } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.full-wdt-header {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  height: 90px;
+  background-color: #fff;
+  width: 100%;
+  z-index: 99;
+  -webkit-transition: 0.3s ease-out all;
+  -moz-transition: 0.3s ease-out all;
+  -ms-transition: 0.3s ease-out all;
+  -o-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all; }
+  .full-wdt-header .navbar {
+    padding: 0; }
+  .full-wdt-header .navbar-brand img {
+    height: 60px; }
+
+.slim-header {
+  height: 70px;
+  -webkit-transition: 0.3s ease-out all;
+  -moz-transition: 0.3s ease-out all;
+  -ms-transition: 0.3s ease-out all;
+  -o-transition: 0.3s ease-out all;
+  transition: 0.3s ease-out all;
+  -webkit-box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1); }
+  .slim-header.full-wdt-header {
+    padding-top: 0; }
+
+.top-menu {
+  margin-left: auto;
+  -webkit-box-flex: inherit;
+  -ms-flex-positive: inherit;
+  flex-grow: inherit; }
+  .top-menu ul li a {
+    font: 16px/23px "Poppins", sans-serif;
+    color: #617392;
+    padding: 8px 15px;
+    border-radius: 10px;
+    -webkit-transition: 0.2s ease-out all;
+    -moz-transition: 0.2s ease-out all;
+    -ms-transition: 0.2s ease-out all;
+    -o-transition: 0.2s ease-out all;
+    transition: 0.2s ease-out all;
+    margin-left: 25px; }
+    .top-menu ul li a:hover {
+      color: #1cc6d3; }
+    .top-menu ul li a.active {
+      background-color: #1CC6D3;
+      color: #fff !important; }
+
+@media (max-width: 1679px) {
+  .top-menu ul li a {
+    font: 14px/21px "Poppins", sans-serif; } }
+
+@media (max-width: 1199px) {
+  .top-menu ul li a {
+    font: 14px/21px "Poppins", sans-serif;
+    padding: 8px 11px; }
+  .full-wdt-header {
+    height: 70px;
+    padding-top: 0; }
+  .top-menu ul li a.active {
+    width: 100% !important;
+    border-radius: 2px; } }
+
+@media (max-width: 991px) {
+  .gradient-header .top-menu ul li a {
+    margin-left: 0; }
+  .full-wdt-header .navbar-brand img {
+    height: 40px; }
+  .full-wdt-header {
+    height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1); }
+    .full-wdt-header .navbar-toggler {
+      margin-right: 25px;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }
+  .top-menu {
+    background: #fff; }
+    .top-menu ul {
+      -webkit-box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1);
+      box-shadow: 2px 3px 5px -2px rgba(0, 0, 0, 0.1); }
+  .top-menu ul li a {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; }
+  .navbar-brand {
+    padding-left: 25px; }
+  .top-menu ul li {
+    padding: 5px 15px;
+    border-bottom: 1px solid #efefef; }
+  .top-menu ul li a.active {
+    margin: 4px 0px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: auto; } }

@@ -1,0 +1,147 @@
+/*** all Mobile Screen (iphone 6,7,8) ***/
+/*** mobile Landscape Size ***/
+/*** medium devices (tablets, less than 992px) ***/
+/*** iPad in landscape ***/
+/**** smaller than desktop 1200 (devices and browsers) ***/
+/*** laptop with MDPI (medium density per inch) resolution ***/
+/*** SP developers resolution ***/
+/*** laptop with HiDPI (High Dots Per Inch) resolution ***/
+/*** WSXGA (Wide Super Extended Graphics Array) resolution ***/
+/* placeholder mixin */
+/* how to use this variabile*/
+/* .forms{
+     @include placeholder{
+      opacity: 1;color: #a5aeb7;
+    } */
+/* @include transition (.2s ease-out all); */
+/*    @include flexbox();
+    @include justify-content (center);*/
+.element-lft-rgt-otr {
+  padding-left: 70px;
+  padding-right: 70px;
+  max-width: 1600px;
+  margin: 80px auto 50px; }
+  .element-lft-rgt-otr .outer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .element-lft-rgt-otr .img-area {
+    text-align: right;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 40%;
+    margin-top: -50px; }
+  .element-lft-rgt-otr .logo-area {
+    width: 15%;
+  }
+  .element-lft-rgt-otr .content_area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 45%;
+    padding-left: 25px; }
+    .element-lft-rgt-otr .content_area article {
+      position: relative;
+      -webkit-box-shadow: 0px 3px 36px #0000000D;
+      box-shadow: 0px 3px 36px #0000000D;
+      background: #fff;
+      min-height: 213px;
+      max-width: 563px;
+      padding: 20px 35px;
+      margin-top: 20px; }
+      .element-lft-rgt-otr .content_area article h3 {
+        position: relative;
+        color: #617392;
+        font: 200 20px/27px "Manrope", sans-serif; }
+        .element-lft-rgt-otr .content_area article h3:before {
+          content: "";
+          width: 15px;
+          height: 5px;
+          background-color: #F86E51;
+          position: absolute;
+          bottom: -20px; }
+      .element-lft-rgt-otr .content_area article p {
+        color: #4F6D8F;
+        margin-top: 33px;
+        font: 17px/27px "Manrope", sans-serif; }
+    .element-lft-rgt-otr .content_area .stylish-head .h1 {
+      font: 700 45px/53px "Poppins", sans-serif; }
+  .element-lft-rgt-otr .scnd .content_area {
+    position: relative;
+    right: -170px; }
+  .element-lft-rgt-otr .scnd .img-area {
+    text-align: left; }
+
+@media (max-width: 1679px) {
+  .element-lft-rgt-otr {
+    margin: 50px auto 25px;
+    /* max-width: 1200px; */
+    padding-left: 70px;
+    padding-right: 70px; }
+  .element-lft-rgt-otr .content_area .stylish-head .h1 {
+    font: 801 55px/58px "Manrope", sans-serif; }
+  .element-lft-rgt-otr .content_area article {
+    min-height: auto;
+    max-width: 440px;
+    padding: 22px 25px;
+    margin-top: 54px; }
+  .element-lft-rgt-otr .content_area article h3 {
+    font: 200 18px/21px "Manrope", sans-serif; }
+  .element-lft-rgt-otr .content_area article p {
+    font: 15px/21px "Manrope", sans-serif; } }
+
+@media (max-width: 1199px) {
+  .element-lft-rgt-otr .content_area .stylish-head .h1 {
+    font: 801 44px/51px "Manrope", sans-serif; }
+  .element-lft-rgt-otr .content_area {
+    padding-left: 0; }
+  .element-lft-rgt-otr .scnd .content_area {
+    right: -50px; } }
+
+@media (max-width: 1023px) {
+  .element-lft-rgt-otr .scnd .content_area {
+    right: -30px; } }
+
+@media (max-width: 991px) {
+  .element-lft-rgt-otr .content_area article {
+    margin-top: 35px; }
+  .element-lft-rgt-otr .scnd .content_area {
+    position: static; }
+  .element-lft-rgt-otr {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .element-lft-rgt-otr .content_area .stylish-head .h1 {
+    font: 801 35px/46px "Manrope", sans-serif; } }
+
+@media (max-width: 767px) {
+  .element-lft-rgt-otr .content_area article {
+    padding: 20px;
+    margin-bottom: 25px; }
+  .element-lft-rgt-otr .scnd .content_area {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1; }
+  .element-lft-rgt-otr {
+    margin: 20px auto 25px; }
+  .element-lft-rgt-otr .img-area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center; }
+    .element-lft-rgt-otr .img-area img {
+      width: 250px; }
+  .element-lft-rgt-otr .content_area {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%; }
+  .element-lft-rgt-otr .content_area article {
+    max-width: 100%; }
+  .element-lft-rgt-otr .content_area .stylish-head .h1 {
+    font: 801 34px/35px "Manrope", sans-serif; } }
+
+/*# sourceMappingURL=element-left-right.css.map */
